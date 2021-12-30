@@ -1,0 +1,30 @@
+{
+    "name": "@techassi/eslint-config",
+    "version": "0.0.1",
+    "description": "Personal ESLint config",
+    "author": "Techassi <git@techassi.dev>",
+    "license": "MIT",
+    "homepage": "https://github.com/Techassi/eslint-config#readme",
+    "private": true,
+    "scripts": {
+        "preinstall": "npx only-allow pnpm",
+        "lint": "npx eslint --ext .js,.json,.vue --fix .",
+        "release": "lerna publish --conventional-commits"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Techassi/eslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Techassi/eslint-config/issues"
+    },
+    "keywords": [
+        "eslint",
+        "config"
+    ],
+    "devDependencies": {
+        "eslint": "^8.5.0",
+        "lerna": "^4.0.0",
+        "typescript": "^4.5.4"
+    }
+}
