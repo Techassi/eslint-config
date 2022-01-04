@@ -1,0 +1,24 @@
+{
+    "name": "@techassi/eslint-config-base",
+    "version": "0.0.1",
+    "description": "Base ESLint config",
+    "author": "Techassi <git@techassi.dev>",
+    "license": "MIT",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint . --config=index.js"
+    },
+    "dependencies": {
+        "eslint-plugin-html": "^6.2.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsonc": "^2.0.0",
+        "eslint-plugin-unicorn": "^40.0.0",
+        "jsonc-eslint-parser": "^2.0.4"
+    },
+    "devDependencies": {
+        "eslint": "^8.5.0"
+    }
+}
