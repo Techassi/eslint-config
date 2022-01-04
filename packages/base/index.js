@@ -5,9 +5,18 @@ module.exports = {
     browser: true,
     node: true,
   },
-  plugins: ['html', 'unicorn', 'import'],
+  plugins: ['html', 'unicorn', 'import', 'jsonc'],
   extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:unicorn/recommended'],
   overrides: [
+    {
+      files: ['*.json', '*.json5'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'quotes': ['error', 'double'],
+        'quote-props': ['error', 'always'],
+        'comma-dangle': ['error', 'never'],
+      },
+    },
     {
       files: ['package.json'],
       parser: 'jsonc-eslint-parser',

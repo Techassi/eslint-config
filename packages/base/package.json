@@ -2,8 +2,8 @@
     "name": "@techassi/eslint-config-base",
     "version": "0.0.1",
     "description": "Base ESLint config",
-    "author": "Techassi <git@techassi.dev>",
     "license": "MIT",
+    "author": "Techassi <git@techassi.dev>",
     "files": [
         "index.js"
     ],
