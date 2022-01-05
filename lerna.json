@@ -2,5 +2,13 @@
     "version": "0.0.1",
     "packages": [
         "packages/*"
-    ]
+    ],
+    "command": {
+        "publish": {
+            "ignoreChanges": [
+                "*.md"
+            ],
+            "message": "chore(release): %s"
+        }
+    }
 }
