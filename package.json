@@ -13,7 +13,6 @@
     },
     "author": "Techassi <git@techassi.dev>",
     "homepage": "https://github.com/Techassi/eslint-config#readme",
-    "private": true,
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "npx eslint --ext .js,.json,.vue --fix .",
