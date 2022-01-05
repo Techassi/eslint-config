@@ -5,7 +5,12 @@ module.exports = {
     browser: true,
     node: true,
   },
-  plugins: ['html', 'unicorn', 'import', 'jsonc'],
+  plugins: [
+    'html',
+    'unicorn',
+    'import',
+    'jsonc',
+  ],
   extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:unicorn/recommended'],
   overrides: [
     {
@@ -68,6 +73,13 @@ module.exports = {
     'import/order': 'error',
     'import/first': 'error',
 
+    // Arrays
+    'array-element-newline': ['error', { multiline: true, minItems: 4 }],
+    'array-bracket-newline': ['error', { multiline: true }],
+    'comma-dangle': ['error', 'always-multiline'],
+    'array-bracket-spacing': ['error', 'never'],
+    'array-callback-return': 'error',
+
     // Basics
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
@@ -77,15 +89,12 @@ module.exports = {
     'space-before-function-paren': ['error', 'never'],
     'quote-props': ['error', 'consistent-as-needed'],
     'curly': ['error', 'multi-or-nest', 'consistent'],
-    'comma-dangle': ['error', 'always-multiline'],
-    'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
     'prefer-exponentiation-operator': 'error',
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'block-spacing': ['error', 'always'],
     'comma-style': ['error', 'last'],
-    'array-callback-return': 'error',
     'block-scoped-var': 'error',
     'quotes': ['error', 'single'],
     'no-multi-spaces': 'error',
