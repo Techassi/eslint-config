@@ -7,7 +7,7 @@
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "npx eslint --ext .js,.json,.vue --fix .",
-        "release": "lerna publish from-package --conventional-commits",
+        "release": "lerna publish --conventional-commits",
         "bump": "lerna version"
     },
     "devDependencies": {

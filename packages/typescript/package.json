@@ -12,7 +12,8 @@
         "lint": "eslint . --config=index.js"
     },
     "peerDependencies": {
-        "eslint": ">=7.4.0"
+        "eslint": ">=7.4.0",
+        "typescript": ">=3.9"
     },
     "dependencies": {
         "@techassi/eslint-config-base": "^0.0.2",
