@@ -4,11 +4,12 @@
         "packages/*"
     ],
     "command": {
-        "publish": {
+        "version": {
+            "message": "chore(release): %s",
+            "allowBranch": "main",
             "ignoreChanges": [
                 "*.md"
-            ],
-            "message": "chore(release): %s"
+            ]
         }
     }
 }
