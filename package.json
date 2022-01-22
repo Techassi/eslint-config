@@ -3,10 +3,11 @@
     "version": "0.0.1",
     "description": "Personal ESLint config",
     "author": "Techassi <git@techassi.dev>",
+    "private": true,
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "npx eslint --ext .js,.json,.vue --fix .",
-        "release": "lerna publish --conventional-commits",
+        "release": "lerna publish from-package --conventional-commits",
         "bump": "lerna version"
     },
     "devDependencies": {
