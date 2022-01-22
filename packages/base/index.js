@@ -12,6 +12,18 @@ module.exports = {
     'jsonc',
   ],
   extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:unicorn/recommended'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: [
+          '.js',
+          '.mjs',
+          '.ts',
+          '.d.ts',
+        ],
+      },
+    },
+  },
   overrides: [
     {
       files: ['*.json', '*.json5'],
@@ -70,6 +82,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-absolute-path': 'error',
     'import/no-duplicates': 'error',
+    'import/no-unresolved': 'off',
     'import/order': 'error',
     'import/first': 'error',
 
