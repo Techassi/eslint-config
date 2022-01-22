@@ -1,6 +1,6 @@
 {
     "name": "@techassi/eslint-config-ts",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "TypeScript ESLint config",
     "license": "MIT",
     "author": "Techassi <git@techassi.dev>",
@@ -15,7 +15,7 @@
         "eslint": ">=7.4.0"
     },
     "dependencies": {
-        "@techassi/eslint-config-base": "^0.0.1",
+        "@techassi/eslint-config-base": "^0.0.2",
         "@typescript-eslint/eslint-plugin": "^5.9.0",
         "@typescript-eslint/parser": "^5.9.0"
     },
