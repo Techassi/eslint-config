@@ -1,6 +1,6 @@
 {
     "name": "@techassi/eslint-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Personal ESLint config",
     "license": "MIT",
     "author": "Techassi <git@techassi.dev>",
@@ -15,7 +15,7 @@
         "eslint": ">=7.4.0"
     },
     "dependencies": {
-        "@techassi/eslint-config-vue": "^0.0.2",
+        "@techassi/eslint-config-vue": "^0.0.3",
         "eslint-plugin-html": "^6.2.0",
         "eslint-plugin-import": "^2.25.4",
         "eslint-plugin-jsonc": "^2.0.0",
