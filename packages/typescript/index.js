@@ -5,6 +5,8 @@ module.exports = {
   extends: ['@techassi/eslint-config-base', 'plugin:@typescript-eslint/recommended'],
   overrides: base.overrides,
   rules: {
+    'import/named': 'off',
+
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
     '@typescript-eslint/type-annotation-spacing': 'error',
