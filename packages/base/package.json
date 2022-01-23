@@ -1,6 +1,6 @@
 {
     "name": "@techassi/eslint-config-base",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Base ESLint config",
     "license": "MIT",
     "author": "Techassi <git@techassi.dev>",
