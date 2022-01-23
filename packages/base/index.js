@@ -169,5 +169,16 @@ module.exports = {
         },
       },
     ],
+
+    // Unicorn
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        replacements: {
+          Ref: false,
+          res: false,
+        },
+      },
+    ],
   },
 };
