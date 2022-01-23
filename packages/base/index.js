@@ -175,8 +175,9 @@ module.exports = {
       'error',
       {
         replacements: {
-          Ref: false,
+          ref: false,
           res: false,
+          props: false,
         },
       },
     ],
