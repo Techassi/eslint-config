@@ -112,7 +112,7 @@ module.exports = {
     'quotes': ['error', 'single'],
     'no-multi-spaces': 'error',
     'eqeqeq': ['error', 'smart'],
-    'consistent-return': 'error',
+    'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'complexity': ['error', 10],
     'semi': ['error', 'always'],
     'no-multi-str': 'error',
@@ -175,9 +175,10 @@ module.exports = {
       'error',
       {
         replacements: {
+          props: false,
+          vars: false,
           ref: false,
           res: false,
-          props: false,
         },
       },
     ],
