@@ -179,6 +179,8 @@ module.exports = {
           vars: false,
           ref: false,
           res: false,
+          fn: false,
+          cb: false,
         },
       },
     ],
