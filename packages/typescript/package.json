@@ -1,29 +1,30 @@
 {
-    "name": "@techassi/eslint-config-ts",
-    "version": "0.0.9",
-    "description": "TypeScript ESLint config",
-    "license": "MIT",
-    "author": "Techassi <git@techassi.dev>",
-    "files": [
-        "index.js"
-    ],
-    "main": "index.js",
-    "scripts": {
-        "lint": "eslint . --config=index.js"
-    },
-    "peerDependencies": {
-        "eslint": ">=7.4.0",
-        "typescript": ">=3.9"
-    },
-    "dependencies": {
-        "@techassi/eslint-config-base": "^0.0.9",
-        "@typescript-eslint/eslint-plugin": "^5.9.0",
-        "@typescript-eslint/parser": "^5.9.0"
-    },
-    "devDependencies": {
-        "eslint": "^8.5.0"
-    },
-    "publishConfig": {
-        "access": "public"
-    }
+  "name": "@techassi/eslint-config-ts",
+  "version": "0.0.9",
+  "description": "TypeScript ESLint config",
+  "license": "MIT",
+  "author": "Techassi <git@techassi.dev>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@techassi/eslint-config-base": "workspace:^0.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
