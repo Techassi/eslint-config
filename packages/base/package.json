@@ -9,7 +9,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=../../.eslintrc"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
