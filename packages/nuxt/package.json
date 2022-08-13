@@ -1,0 +1,27 @@
+{
+  "name": "@techassi/eslint-config-nuxt",
+  "version": "0.0.9",
+  "description": "Nuxt ESLint config",
+  "license": "MIT",
+  "author": "Techassi <git@techassi.dev>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=../../.eslintrc"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@techassi/eslint-config-ts": "workspace:^0.0.9",
+    "eslint-plugin-vue": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
