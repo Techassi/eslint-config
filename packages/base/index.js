@@ -96,7 +96,7 @@ module.exports = {
     // Basics
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'comma-spacing': ['error', { before: false, after: true }],
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'space-before-function-paren': ['error', 'never'],
@@ -179,6 +179,7 @@ module.exports = {
           vars: false,
           ref: false,
           res: false,
+          req: false,
           fn: false,
           cb: false,
         },
