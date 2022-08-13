@@ -1,6 +1,6 @@
 # eslint-config
 
-This is my personal ESLint config. It supports basic JS, TypeScript and Vue.
+This is my personal ESLint config. It supports JavaScript, TypeScript, Vue and Nuxt.
 
 ## Usage
 
@@ -18,9 +18,9 @@ names.
 
 ```json
 {
-  "extends": {
+  "extends": [
     "@techassi"
-  }
+  ]
 }
 ```
 
