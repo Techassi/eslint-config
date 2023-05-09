@@ -1,0 +1,27 @@
+{
+  "name": "@techassi/eslint-config-solid",
+  "version": "0.0.9",
+  "description": "Solid ESLint config",
+  "license": "MIT",
+  "author": "Techassi <git@techassi.dev>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=../../.eslintrc"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@techassi/eslint-config-ts": "workspace:*",
+    "eslint-plugin-solid": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
