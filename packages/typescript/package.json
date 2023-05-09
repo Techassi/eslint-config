@@ -1,6 +1,6 @@
 {
   "name": "@techassi/eslint-config-ts",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "description": "TypeScript ESLint config",
   "license": "MIT",
   "author": "Techassi <git@techassi.dev>",
