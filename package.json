@@ -11,8 +11,8 @@
         "bump": "lerna version"
     },
     "devDependencies": {
-        "@techassi/eslint-config": "*",
-        "eslint": "^8.21.0",
-        "typescript": "^4.7.4"
+        "@techassi/eslint-config": "workspace:^",
+        "eslint": "^8.40.0",
+        "typescript": "^4.9.5"
     }
 }

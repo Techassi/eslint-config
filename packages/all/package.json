@@ -15,15 +15,15 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@techassi/eslint-config-vue": "workspace:^0.0.9",
+    "@techassi/eslint-config-vue": "workspace:*",
     "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsonc": "^2.3.1",
-    "eslint-plugin-unicorn": "^40.1.0",
-    "jsonc-eslint-parser": "^2.1.0"
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsonc": "^2.7.0",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "jsonc-eslint-parser": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^8.21.0"
+    "eslint": "^8.40.0"
   },
   "publishConfig": {
     "access": "public"
